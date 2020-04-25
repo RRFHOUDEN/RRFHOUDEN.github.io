@@ -30,7 +30,8 @@ h4{
 }
 
 .main {
-    margin: 0 100px;
+    width: 75%;
+    margin: 0 auto;
     background-color: rgb(249, 251, 252);
     height: 800px;
 }
