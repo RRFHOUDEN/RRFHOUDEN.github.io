@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <meta charset="utf-8">
+        <title>年齢逆算</title>
+        <link rel="stylesheet" href="calculationAgeSyleSheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+    </head>
+
+    <body>
+        <div class="header">入学・卒業などの年数から年齢を逆算するサイトです</div>
+        <div class="main">
+            <div id="birthYearToAge">
+                <h4>西暦から年齢に変換します</h4>
+                <form id="birthYearToAgeForm">
+                    西暦<input type="text" name="name" id="year">年生まれ
+                    <button type="submit" class="btn btn-submit">変換</button>
+                    <P id="nowAge"></P>
+                </form>                
+            </div>
+
+            <div id="birthYearToAge">
+                <h4>入学・卒業の年から年齢を計算します</h4>
+                <form id="birthYearToAgeForm">
+                    西暦<input type="text" name="name" id="year">年生まれ
+                    <button type="submit" class="btn btn-submit">変換</button>
+                    <P id="nowAge"></P>
+                </form>                
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="calculationAgeScript.js"></script>
+  
+    </body>
+</html>
