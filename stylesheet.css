@@ -30,8 +30,12 @@ html, body{
 .menu li {
     color: azure;
     float: left;
-    padding: 10px 20px;
+    padding: 10px 10px;
     list-style: none;
+}
+
+.menu li a{
+    color: azure;
 }
 
 .main {
