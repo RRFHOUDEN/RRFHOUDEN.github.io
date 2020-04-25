@@ -35,20 +35,11 @@ h4{
     height: 800px;
 }
 
-.education {
+.education, .competitiveProgramming, .link {
     padding: 10px;
 }
 
-.education li {
-    font-size: small;
-    list-style: none;
-}
-
-.competitiveProgramming {
-    padding: 10px;
-}
-
-.competitiveProgramming li{
+.education li, .competitiveProgramming li, .link li{
     font-size: small;
     list-style: none;
 }
