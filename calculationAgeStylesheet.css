@@ -6,7 +6,7 @@ form, input, div {
   padding: 0;
 }
 
-.header{
+.header, .footer{
     text-align: center;
 }
 
@@ -18,4 +18,8 @@ form, input, div {
     display: inline-block;
     width: 25%;
     padding: 10px 25px;
+}
+
+.footer a{
+    color: black;
 }
