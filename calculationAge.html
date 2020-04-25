@@ -3,7 +3,7 @@
     <head>        
         <meta charset="utf-8">
         <title>年齢逆算</title>
-        <link rel="stylesheet" href="calculationAgeSyleSheet.css">
+        <link rel="stylesheet" href="calculationAgeStyleSheet.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   
     </head>
@@ -11,21 +11,30 @@
     <body>
         <div class="header">入学・卒業などの年数から年齢を逆算するサイトです</div>
         <div class="main">
-            <div id="birthYearToAge">
+            <div id="birth-year-to-age" class="form">
                 <h4>西暦から年齢に変換します</h4>
-                <form id="birthYearToAgeForm">
-                    西暦<input type="text" name="name" id="year">年生まれ
-                    <button type="submit" class="btn btn-submit">変換</button>
-                    <P id="nowAge"></P>
+                <form id="birth-year-to-age-form">
+                    西暦<input type="text" name="name" id="birth-year">年生まれ
+                    <button type="submit" class="btn btn-submit-birth">変換</button>
+                    <P id="now-age-birth">入力してください</P>
                 </form>                
             </div>
 
-            <div id="birthYearToAge">
-                <h4>入学・卒業の年から年齢を計算します</h4>
-                <form id="birthYearToAgeForm">
-                    西暦<input type="text" name="name" id="year">年生まれ
-                    <button type="submit" class="btn btn-submit">変換</button>
-                    <P id="nowAge"></P>
+            <div id="univent-year-to-age" class="form">
+                <h4>大学入学年から年齢を計算します</h4>
+                <form id="univent-year-to-age-form">
+                    西暦<input type="text" name="name" id="univent-year">年入学
+                    <button type="submit" class="btn btn-submit-univent">変換</button>
+                    <P id="now-age-univent">入力してください</P>
+                </form>                
+            </div>
+
+            <div id="univgrad-year-to-age" class="form">
+                <h4>大学卒業年から年齢を計算します</h4>
+                <form id="univgrad-year-to-age-form">
+                    西暦<input type="text" name="name" id="univgrad-year">年卒業
+                    <button type="submit" class="btn btn-submit-univgrad">変換</button>
+                    <P id="now-age-univgrad">入力してください</P>
                 </form>                
             </div>
         </div>
