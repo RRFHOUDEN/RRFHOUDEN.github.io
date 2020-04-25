@@ -6,11 +6,27 @@ form, input, div {
   padding: 0;
 }
 
+html, body{
+    height: 100%;
+}
+
 .header, .footer{
     text-align: center;
+    height: 10%;    
+    position:relative;
+}
+
+.header p, .footer p{
+    font-size: medium;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
 }
 
 .main{
+    height: 80%;
     text-align: center;
 }
 
