@@ -6,6 +6,13 @@ form, input, div {
   padding: 0;
 }
 
+h3 {
+    font-size: large;
+}
+
+h4{
+    font-size: medium;
+}
 .header {
     background-color: rgb(150, 171, 172);
     height: 60px;
@@ -28,25 +35,13 @@ form, input, div {
     height: 800px;
 }
 
-.myname h3 {
-    font-size: large;
-}
-
 .education {
     padding: 10px;
-}
-
-.education h4 {
-    font-size: medium;
 }
 
 .education li {
     font-size: small;
     list-style: none;
-}
-
-.competitiveProgramming h4{
-    font-size: medium;
 }
 
 .competitiveProgramming {
