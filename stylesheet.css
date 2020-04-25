@@ -1,0 +1,70 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    background-color: rgb(150, 171, 172);
+    height: 60px;
+}
+
+.menu {    
+    vertical-align: middle;
+}
+
+.menu li {
+    color: azure;
+    float: left;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.main {
+    margin: 0 100px;
+    background-color: rgb(249, 251, 252);
+    height: 800px;
+}
+
+.myname h3 {
+    font-size: large;
+}
+
+.education {
+    padding: 10px;
+}
+
+.education h4 {
+    font-size: medium;
+}
+
+.education li {
+    font-size: small;
+    list-style: none;
+}
+
+.competitiveProgramming h4{
+    font-size: medium;
+}
+
+.competitiveProgramming {
+    padding: 10px;
+}
+
+.competitiveProgramming li{
+    font-size: small;
+    list-style: none;
+}
+
+#atCoderAcount {
+    color: rgb(25, 203, 216);
+}
+
+.footer {    
+    background-color: rgb(150, 171, 172);
+    height: 100px;
+    text-align: center;
+    color: azure;
+}
